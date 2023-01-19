@@ -419,7 +419,7 @@ body {
 		font-size: 34px;
 	}
 	.main-block__title:not(:last-child) {
-		margin-bottom: 10px;
+		margin-bottom: 30px;
 	}
 	.menu-main__list {
 		gap: 5px;
