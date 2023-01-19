@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/practice.css">
+
+	<title>Grid</title>
+</head>
+
+<body>
+	<header class="header"></header>
+	<main class="page">
+		<section class="page__grid grid">
+			<div class="grid">
+				<div class="grid__item">Блок 1</div>
+				<div class="grid__item">Блок 2</div>
+				<div class="grid__item">Блок 3</div>
+				<div class="grid__item">Блок 4</div>
+				<div class="grid__item">Блок 5</div>
+				<div class="grid__item">Блок 6</div>
+			</div>
+			<div class="page__grid-areas grid-areas">
+				<div class="grid-areas__header">Хедер</div>
+				<div class="grid-areas__sidebar">Сайдбар</div>
+				<div class="grid-areas__content">Контент</div>
+				<div class="grid-areas__footer">Футер</div>
+			</div>
+			<div class="testimonial-block__body">
+				<div class="testimonial-block__content">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.
+				</div>
+				<div class="testimonial-block__user-profile user-profile">
+					<div class="user-profile__image">
+						<img src="./img/testimonial/01 (1).jpg" alt="Eleanor Pena">
+					</div>
+					<div class="user-profile__user-name">Eleanor Pena</div>
+					<div class="user-profile__user-position">Position, Course</div>
+				</div>
+			</div>
+			<!-- <div class="page__grid-card card-block">
+				<div class="card-block__body">
+					<div class="card-block__image">
+						<img src="./img/courses/01.jpg" alt="Jerome Bell">
+					</div>
+					<div class="card-block__text">
+						<div class="card-block__specialty card-block__specialty--green">Marketing</div>
+						<div class="card-block__title">The Ultimate Google Ads Training Course</div>
+						<div class="card-block__info">
+							<a class="card-block__price">$100</a>
+							<a class="card-block__name">by Jerome Bell</a>
+						</div>
+					</div>
+				</div>
+				<div class="card-block__body">
+					<div class="card-block__image">
+						<img src="./img/courses/01.jpg" alt="Jerome Bell">
+					</div>
+					<div class="card-block__text">
+						<div class="card-block__specialty card-block__specialty--green">Marketing</div>
+						<div class="card-block__title">The Ultimate Google Ads Training Course</div>
+						<div class="card-block__info">
+							<a class="card-block__price">$100</a>
+							<a class="card-block__name">by Jerome Bell</a>
+						</div>
+					</div>
+				</div>
+				<div class="card-block__body">
+					<div class="card-block__image">
+						<img src="./img/courses/01.jpg" alt="Jerome Bell">
+					</div>
+					<div class="card-block__text">
+						<div class="card-block__specialty card-block__specialty--green">Marketing</div>
+						<div class="card-block__title">The Ultimate Google Ads Training Course</div>
+						<div class="card-block__info">
+							<a class="card-block__price">$100</a>
+							<a class="card-block__name">by Jerome Bell</a>
+						</div>
+					</div>
+				</div>
+				<div class="card-block__body">
+					<div class="card-block__image">
+						<img src="./img/courses/01.jpg" alt="Jerome Bell">
+					</div>
+					<div class="card-block__text">
+						<div class="card-block__specialty card-block__specialty--green">Marketing</div>
+						<div class="card-block__title">The Ultimate Google Ads Training Course</div>
+						<div class="card-block__info">
+							<a class="card-block__price">$100</a>
+							<a class="card-block__name">by Jerome Bell</a>
+						</div>
+					</div>
+				</div>
+				<div class="card-block__body">
+					<div class="card-block__image">
+						<img src="./img/courses/01.jpg" alt="Jerome Bell">
+					</div>
+					<div class="card-block__text">
+						<div class="card-block__specialty card-block__specialty--green">Marketing</div>
+						<div class="card-block__title">The Ultimate Google Ads Training Course</div>
+						<div class="card-block__info">
+							<a class="card-block__price">$100</a>
+							<a class="card-block__name">by Jerome Bell</a>
+						</div>
+					</div>
+				</div>
+				<div class="card-block__body">
+					<div class="card-block__image">
+						<img src="./img/courses/01.jpg" alt="Jerome Bell">
+					</div>
+					<div class="card-block__text">
+						<div class="card-block__specialty card-block__specialty--green">Marketing</div>
+						<div class="card-block__title">The Ultimate Google Ads Training Course</div>
+						<div class="card-block__info">
+							<a class="card-block__price">$100</a>
+							<a class="card-block__name">by Jerome Bell</a>
+						</div>
+					</div>
+				</div>
+				<div class="card-block__body">
+					<div class="card-block__image">
+						<img src="./img/courses/01.jpg" alt="Jerome Bell">
+					</div>
+					<div class="card-block__text">
+						<div class="card-block__specialty card-block__specialty--green">Marketing</div>
+						<div class="card-block__title">The Ultimate Google Ads Training Course</div>
+						<div class="card-block__info">
+							<a class="card-block__price">$100</a>
+							<a class="card-block__name">by Jerome Bell</a>
+						</div>
+					</div>
+				</div>
+				<div class="card-block__body">
+					<div class="card-block__image">
+						<a href=""><img src="./img/courses/01.jpg" alt="Jerome Bell"></a>
+					</div>
+					<div class="card-block__text">
+						<div class="card-block__specialty card-block__specialty--green">Marketing</div>
+						<div class="card-block__title">The Ultimate Google Ads Training Course</div>
+						<div class="card-block__info">
+							<a class="card-block__price">$100</a>
+							<a class="card-block__name">by Jerome Bell</a>
+						</div>
+					</div>
+				</div>
+				<div class="card-block__body">
+					<div class="card-block__image">
+						<img src="./img/courses/01.jpg" alt="Jerome Bell">
+					</div>
+					<div class="card-block__text">
+						<div class="card-block__specialty card-block__specialty--green">Marketing</div>
+						<div class="card-block__title">The Ultimate Google Ads Training Course</div>
+						<div class="card-block__info">
+							<a class="card-block__price">$100</a>
+							<a class="card-block__name">by Jerome Bell</a>
+						</div>
+					</div>
+				</div>
+				<div class="card-block__body">
+					<div class="card-block__image">
+						<img src="./img/courses/01.jpg" alt="Jerome Bell">
+					</div>
+					<div class="card-block__text">
+						<div class="card-block__specialty card-block__specialty--green">Marketing</div>
+						<div class="card-block__title">The Ultimate Google Ads Training Course</div>
+						<div class="card-block__info">
+							<a class="card-block__price">$100</a>
+							<a class="card-block__name">by Jerome Bell</a>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</section >
+	</main>
+	<footer class="footer"></footer>
+</body>
+
+</html>
